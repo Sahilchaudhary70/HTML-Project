@@ -1,0 +1,101 @@
+style.css
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.7) url('Image_2.png') center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1{
+    color: rgb(253, 62, 4);
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px;
+    transition: 3.5s;
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px orangered inset,0 3px 50px orangered inset,
+    0 3px 50px orangered inset,0 3px 50px orangered inset;
+}
+
+.navbar .reservation{
+    padding: 8px;
+    background-color: orangered;
+}
+
+.content{
+    position: absolute;
+    color: #fff;
+    top: 40%;
+    left: 27%;
+}
+
+.content h3{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 23%;
+}
+
+.content h1{
+    
+    font-size: 50px;
+    margin-right: 29%;
+}
+
+.content p{
+    text-align: center;
+    margin-top: 19px;
+    margin-right: 29%;
+}
+
+.explore {
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 47%;
+    color: white;
+    background: orangered;
+    text-decoration: none;
+    border: 8px solid transparent;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .4s;
+    
+}
+
+.explore a{
+    color: #fff;
+}
+
+.explore:hover{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 25px;
+    background-color: orangered;
+    /* background: orangered; */
+    border: 2px solid black;
+    cursor: pointer;
+}
